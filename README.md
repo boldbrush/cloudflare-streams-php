@@ -25,14 +25,14 @@ Get List of streams:
 
 ```php
 /** @var API\Response\Stream[] */
-$streams = $api->getSteams();
+$streams = $api->getStreams();
 ```
 
 Get details of a stream:
 
 ```php
 /** @var API\Response\Stream */
-$stream = $api->getSteam('<uid>');
+$stream = $api->getStream('<uid>');
 ```
 
 Upload a stream from URL:

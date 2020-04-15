@@ -18,7 +18,7 @@ class Streams
         $this->adapter = $adapter;
     }
 
-    public function getSteams()
+    public function getStreams()
     {
         try {
             $streams = $this->builder->build(
@@ -31,7 +31,7 @@ class Streams
         return $streams;
     }
 
-    public function getSteam($identifier)
+    public function getStream($identifier)
     {
         try {
             $stream = $this->builder->build(
