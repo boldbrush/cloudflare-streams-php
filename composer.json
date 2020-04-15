@@ -1,0 +1,24 @@
+{
+    "name": "boldbrush/cloudflare-streams-php",
+    "description": "Cloudfare SDK for Streams API",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adro Rocker",
+            "email": "me@adro.rocks"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BoldBrush\\Cloudflare\\API\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "minimum-stability": "stable"
+}
