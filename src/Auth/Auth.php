@@ -34,6 +34,12 @@ class Auth
 
     public function getHeaders()
     {
+        if ($this->getEmail() === 'api_token') {
+            return [
+                'Authorization' => 'Bearer ' . $this->apiKey,
+            ];
+        }
+
         return [
             'X-Auth-Email' => $this->getEmail(),
             'X-Auth-Key' => $this->getApiKey(),

@@ -20,6 +20,9 @@ $api = API\Factory::make(
     '<email>'
 );
 ```
+ * account: set your account ID (can be found in your dashboard URL or when in a DNS zone)
+ * apiKey: use your Global API key, together with your email address, or use 'api_token' as the email and use a configured API Token.
+ * email: set your login email in combination with your Global API key, or set as 'api_token' combined with a configured API Token.
 
 Get List of streams:
 
